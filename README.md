@@ -27,7 +27,7 @@ https://t.me/firstAidKitInfoBot
 - `/showExpiringSoon` - показать медикаменты, срок годности которых заканчивается через месяц или меньше.
 
 # Данные
-![Image](ER_diagram.png)
+![Image alt](https://github.com/olbenka/first-aid-kit/blob/main/ER_diagram.jpg)
 ## Для каждого элемента данных - ограничения
 ### Medication 
 * id (PK): уникальный идентификатор, генерируется автоматически.
