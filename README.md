@@ -77,8 +77,9 @@ https://t.me/firstAidKitInfoBot
 UI бота приведены в папке screens.
 # Технологии разработки
 ## Язык программирования 
-Java 11
+Java 11 \
+SpringBoot
 ## СУБД
 PostgreSQL
 # Тестирование
-будет дополнено позже.
+Данные в файле test.txt
