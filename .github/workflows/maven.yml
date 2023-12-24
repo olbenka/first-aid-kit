@@ -32,9 +32,6 @@ jobs:
 
     - name: Build with Maven - common-rabbitmq
       run: mvn -B package --file firstAidKit/common-rabbitmq/pom.xml
-      
-    - name: Build with Maven - dispatcher
-      run: mvn -B package --file firstAidKit/dispatcher/pom.xml
 
     - name: Build with Maven - node
       run: mvn -B package --file firstAidKit/node/pom.xml
@@ -50,6 +47,9 @@ jobs:
 
     - name: Build with Maven - mail-service
       run: mvn -B package --file firstAidKit/mail-service/pom.xml
+
+    - name: Build with Maven - dispatcher
+      run: mvn -B package --file firstAidKit/dispatcher/pom.xml
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
