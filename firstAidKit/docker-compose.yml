@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  dispatcher:
+    build:
+      context: C:\Users\alma_\IdeaProjects\firstAidKit\dispatcher
+
+  node:
+    build:
+      context: C:\Users\alma_\IdeaProjects\firstAidKit\node
+
+
+  rest-service:
+    build:
+      context: C:\Users\alma_\IdeaProjects\firstAidKit\rest-service
+
+
+
+  mail-service:
+    build:
+      context: C:\Users\alma_\IdeaProjects\firstAidKit\mail-service
+
