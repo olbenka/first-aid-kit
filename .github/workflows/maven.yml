@@ -36,20 +36,12 @@ jobs:
     - name: Build with Maven - common-jpa
       run: mvn -B package --file firstAidKit/common-jpa/pom.xml
 
-    - name: Build with Maven - rest-service
-      run: mvn -B package --file firstAidKit/rest-service/pom.xml
-
     - name: Build with Maven - common-utils
       run: mvn -B package --file firstAidKit/common-utils/pom.xml
 
     - name: Build with Maven - mail-service
       run: mvn -B package --file firstAidKit/mail-service/pom.xml
 
-    - name: Build with Maven - dispatcher
-      run: mvn -B package --file firstAidKit/dispatcher/pom.xml
-
-    - name: Build with Maven - node
-      run: mvn -B package --file firstAidKit/node/pom.xml
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
