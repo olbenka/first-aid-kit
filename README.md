@@ -24,7 +24,7 @@ https://t.me/firstAidKitInfoBot
 - `/info` - информация о конкретном препарате
 - `/delete` - удалить медикамент
 - `/take` - принять медикамент
-- `/showExpiringSoon` - показать медикаменты, срок годности которых заканчивается через месяц или меньше.
+- `/showexpiringsoon` - показать медикаменты, срок годности которых заканчивается через месяц или меньше.
 
 # Данные
 ![Image alt](https://github.com/olbenka/first-aid-kit/blob/main/ER_diagram.jpg)
@@ -75,8 +75,9 @@ https://t.me/firstAidKitInfoBot
 
 # UI / API 
 Проект реализован через Telegram Bot API.
-UI бота приведены в папке screens.
+UI бота приведено в папке screens.
 # Технологии разработки
+Docker, Flyway, RabbitMQ
 ## Язык программирования 
 Java 11 \
 Spring
